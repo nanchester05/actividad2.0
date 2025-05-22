@@ -1,0 +1,77 @@
+
+
+1.	¿Cómo se inicializa un repositorio local? (que comando se debe ejecu-tar?)
+Con el comando git init podremos inicializar el repositorio local
+
+2.	¿Cómo hago para que un directorio deje de ser controlado por git? (que comando se debe ejecutar?)
+Rm –rf .git se encargara de eliminarlos el reprositorio oculto
+
+3.	Si agrego un archivo a un directorio que ya está siendo controlado por git, ¿está siendo controlado por git?
+Git add y no es inmediatamente
+4.	¿Qué comando se utiliza para agregar un archivo al repositorio local?
+Se utilizara el siguiente comando para agregar un archivo git add Igna-cio_sanchez
+5.	¿Cómo determino que archivos fueron modificados? (que comando se debe ejecutar?)
+Git status nos dira los archivos que fueron modificon
+6.	¿Qué comando se utiliza para hacer un commit?
+Git commit –m “tu mensaje”
+7.	En sus propias palabras, ¿qué es un commit?
+Es una foto o un como un punto de guardado del proyecto
+3. la salida del comando del git status se encargara de guardarnos dentro del directorio nos mostrara el directorio actual  después de haber salido del git status
+
+
+5: cambia el mostrador de los archivos, después de haber ejecutado el git commit
+
+9: el commit aparecerá en un orden cronológico el más reciente aparece primero y las más antiguos aparecen más abajo 
+
+
+10. git log –oneline : 
+1e5de08 (HEAD -> main) Agrego mi sandwich.txt
+46fd28e Agrego salsas.txt
+27ae2d4 (origin/main, origin/HEAD) Update README.md
+f6afc25 Add files via upload
+9d8e0e2 Delete tallergitprog1-main directory
+88fecc1 Add files via upload
+3a7d285 Update estilos
+dac6aed Rename estilos.md to estilos
+b15c251 Update estilos.md
+4327ba9 Update and rename archivo_1.md to estilos.md
+67da0bb Create archivo_1.md
+167f211 Merge pull request #1 from Lidia-lcm/rama-local
+ddcaf01 (origin/rama-local) Creacion de carpeta y subida de imagen
+175fc71 Update README.md
+7103b6a Initial commit
+
+Git log –stat:
+commit 1e5de080656e43fc167129eeefd9e2340d9f0d33 (HEAD -> main)
+Author: ignacio <isanchez649686@iesjuandepadilla.com>
+Date:   Tue May 20 18:37:25 2025 +0200
+
+    Agrego mi sandwich.txt
+
+ Actividades/1.commit/sandwich.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 46fd28eab273092a147a532d5692f452a34da4ac
+Author: ignacio <isanchez649686@iesjuandepadilla.com>
+Date:   Tue May 20 13:35:53 2025 +0200
+
+    Agrego salsas.txt
+
+ Actividades/1.commit/sandwich.txt | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 27ae2d4633df71d57f8caf6eba02df8e94cf9d91 (origin/main, origin/HEAD)
+Author: Lidia-lcm <lidialacalm@gmail.com>
+Date:   Mon May 12 12:23:35 2025 +0200
+
+    Update README.md
+
+ Actividades/README.md | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+
+commit f6afc2592973b03bb453145cc563f6f7074c9a7f
+Author: Lidia-lcm <lidialacalm@gmail.com>
+: para salir Q
+
+16:  nos mostrara la bitácora de commits con un resumen de los archivos modificadores cada uno como en el de antes que podremos ver los archivos que he cambiado recientemente
+
